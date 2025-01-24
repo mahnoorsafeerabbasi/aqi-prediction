@@ -26,7 +26,7 @@ class AQIFeatureStore:
 def load_data():
     feature_store = AQIFeatureStore(
         project_name="AQI_PREDICTION_SYSTEM",
-        api_key="w1IOG2L7FLfYy52R.4xG7KWAtnOnmn3jzyS0CNnB68jR1kX7qYpZN3GDzJ1ifLReBzUke4howinfecLD3"  # Replace with your actual API key
+        api_key="YOUR-API-KEY"  # Replace with your actual API key
     )
     data = feature_store.get_features()
     return data
