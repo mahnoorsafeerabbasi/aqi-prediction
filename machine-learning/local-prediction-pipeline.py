@@ -20,7 +20,7 @@ cities = {
 }
 
 # Air pollution API key
-API_KEY_AIR = '6cca1b9df705396fb4a90359469fff57'
+API_KEY_AIR = 'YOUR-API-KEY'
 
 # Weather forecast API URL
 WEATHER_API_URL = "https://api.open-meteo.com/v1/forecast?"
