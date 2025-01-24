@@ -11,7 +11,7 @@ from airflow.operators.python import PythonOperator
 from hopsworks import login
 
 # Constants for API and Model Details
-API_KEY_AIR = '6cca1b9df705396fb4a90359469fff57'
+API_KEY_AIR = 'YOUR-API-KEY'
 WEATHER_API_URL = "https://api.open-meteo.com/v1/forecast?"
 AIR_POLLUTION_API_URL = "http://api.openweathermap.org/data/2.5/air_pollution/forecast?"
 FEATURE_COLUMNS = [
@@ -28,7 +28,7 @@ cities = {
 
 # Hopsworks project and API key
 PROJECT_NAME = "AQI_PREDICTION_SYSTEM"
-API_KEY = "w1IOG2L7FLfYy52R.4xG7KWAtnOnmn3jzyS0CNnB68jR1kX7qYpZN3GDzJ1ifLReBzUke4howinfecLD3"  # Replace with your actual API key
+API_KEY = " Replace with your actual API key" 
 
 # Logging setup
 logging.basicConfig(
