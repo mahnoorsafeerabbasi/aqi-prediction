@@ -2,7 +2,7 @@ import hopsworks
 
 # Connect to Hopsworks
 project_name = "AQI_PREDICTION_SYSTEM"  # Replace with your actual project name
-api_key = "w1IOG2L7FLfYy52R.4xG7KWAtnOnmn3jzyS0CNnB68jR1kX7qYpZN3GDzJ1ifLReBzUke4howinfecLD3"  # Replace with your actual API key
+api_key = "YOUR-API-KEY"  # Replace with your actual API key
 
 project = hopsworks.login(project=project_name, api_key_value=api_key)
 
